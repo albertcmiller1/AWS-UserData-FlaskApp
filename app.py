@@ -9,3 +9,5 @@ print("app is running")
 def hello_world():
     return "<p>Hello, World</p>"
 
+
+app.run(host='0.0.0.0', debug=True, port=5000)
